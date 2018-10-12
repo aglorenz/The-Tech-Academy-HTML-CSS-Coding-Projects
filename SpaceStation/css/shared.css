@@ -325,7 +325,7 @@
     padding: 7px 0px;
     width: 25%;
     font-size: 18px;
-    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    transition: border-color, 0.3s color, 0.3s background-color 0.3s;
     border-radius: 7px;
     background-color: #797A7B;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
@@ -344,7 +344,7 @@
   #footer {
       background-color: rgba(100, 65, 0, 0.3);
       color: #000;
-      text-shadow: 2px 2px 8px 0 (0, 0, 0, 0.4);
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
       padding: 20px 50px 20px 50px;
       text-align: right;      
 }
