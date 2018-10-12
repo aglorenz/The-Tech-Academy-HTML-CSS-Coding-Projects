@@ -262,12 +262,18 @@
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }
+/* The palceholder text was too dim for my liking.  So I found a way to make it 
+   the color of when you start typing into the form    */
 
+::placeholder {
+    color: #8D8E8F;
+    opacity: 1;
+}
 .reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8D8E8F;
+    color: #8D8E8F; /* this is the color when user starts typing into form */
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090B0D;
@@ -290,9 +296,7 @@
 }
 
 .terms {
-    margin: 30px 1px 0 0;
-    margin-top: 13%;
-    padding-left: 52px;
+    margin: 23px 41px 0 0;
     font-size: 14px;
     line-height: 5px;
     color: #000;
@@ -349,7 +353,7 @@
 /*=======================================
   @MEDIA QUERIES
   =======================================*/
-  @media all and (max-width:640px) and (min-width:381px) {
+  /* @media all and (max-width:640px) and (min-width:381px) {
     .head-main { 
         font-size: 28px ;
     }
@@ -374,4 +378,4 @@
   .container {
     width: 1170px;
   }
-}
+} */
